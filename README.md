@@ -3,9 +3,6 @@
 
 >* [Colors](https://www.npmjs.com/package/colors)
 >* [say](https://www.npmjs.com/package/say)  
->
->
-> 
-> 
-> 
->                               Made with love by Soufiane
+
+
+                            Made with love by Soufiane
