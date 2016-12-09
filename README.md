@@ -1,5 +1,5 @@
 # POMODORO NODE 
-![POMODORO](http://recruitmentcoach.com/wp-content/uploads/2015/02/PomodoroXLarge2.jpg )
+![POMODORO](tomato.png)
 
 >###You need to install the following node packages : 
 
