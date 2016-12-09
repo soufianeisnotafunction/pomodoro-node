@@ -1,5 +1,4 @@
-# POMODORO NODE 
-# POMODORO NODE 
+ # POMODORO NODE 
 ![alt text](http://recruitmentcoach.com/wp-content/uploads/2015/02/PomodoroXLarge2.jpg "Pomodoro")
 
 >###You need to install the following node packages : 
