@@ -6,7 +6,7 @@
 >* [Colors](https://www.npmjs.com/package/colors)
 >* [say](https://www.npmjs.com/package/say) 
 >
->You can  simply install those packages by typing : `npm init`
+>You can  simply install those packages by typing : `npm install`
 >
 >>####Note for Linux user :
 >>You need to install Festival by typing : 
