@@ -1,7 +1,10 @@
 const say = require("say");
 const figlet = require("figlet");
 const colors = require("colors");
-const readline = require("readline-sync");
+const readlineSync = require("readline-sync");
+
+
+let work = true;
 
 let data = {
   work: {
@@ -15,23 +18,27 @@ let data = {
     talk: " chill out , its time to relax"
   }
 };
-let work = true;
-let { time, msg, talk } = data.work;
+
+let {
+  time,
+  msg,
+  talk
+} = data.work;
 
 // PROMPT
-var readlineSync = require("readline-sync"),
-  timeRange = [25, 35, 45],
-  index = readlineSync.keyInSelect(timeRange, "Work time ?");
+const timeRange = [25, 35, 45]
+const index = readlineSync.keyInSelect(timeRange, "Work time ?");
 time = timeRange[index] * 60;
 
 //CLEAR SCREEN
 process.stdout.write("\x1B[2J\x1B[0f");
+
 //POMODORO
 console.log(figlet.textSync("POMODORO", "Calvin S").red);
 
 say.speak(talk, "Alex", 1);
 
-const pomodoro = () => {
+function pomodoro() {
   if (time < 0) {
     work = !work;
     msg = work ? data.work.msg : data.pause.msg;
