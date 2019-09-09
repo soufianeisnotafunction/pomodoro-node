@@ -55,4 +55,4 @@ function pomodoro() {
   time--;
 };
 
-var timer = setInterval(pomodoro, 1000);
+let timer = setInterval(pomodoro, 1000);
