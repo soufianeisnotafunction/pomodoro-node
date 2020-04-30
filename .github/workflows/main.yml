@@ -28,4 +28,4 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Run audit
-      run: npm run audit
+      run: npm audit
