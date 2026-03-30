@@ -1,25 +1,24 @@
 {
   "name": "pomodoro-node",
-  "version": "1.0.0",
-  "description": ">You need to install :",
-  "main": "pomodoro2.0.js",
+  "version": "2.0.0",
+  "description": "Pomodoro timer in Node.js with clean code and SOLID principles",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sboutallaka/pomodoro-node.git"
+    "url": "git+https://github.com/soufianeisnotafunction/pomodoro-node.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sboutallaka/pomodoro-node/issues"
-  },
-  "homepage": "https://github.com/sboutallaka/pomodoro-node#readme",
   "dependencies": {
-    "colors": "^1.1.2",
-    "figlet": "^1.2.0",
-    "readline-sync": "^1.4.9",
-    "say": "^0.11.0"
+    "chalk": "^5.6.2",
+    "figlet": "^1.11.0",
+    "inquirer": "^12.11.1"
   }
 }
